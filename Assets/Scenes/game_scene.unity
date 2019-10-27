@@ -893,7 +893,6 @@ GameObject:
   - component: {fileID: 1015178627}
   - component: {fileID: 1015178622}
   - component: {fileID: 1015178628}
-  - component: {fileID: 1015178629}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -1019,7 +1018,7 @@ Transform:
   m_GameObject: {fileID: 1015178621}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.57, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1046,24 +1045,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1015178621}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4edab24a8bf9554a9ba7ce86bb9a7e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f20abd0639bb9c4eb930c5e7d1a7f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!111 &1015178629
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1015178621}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &1617082753
 GameObject:
   m_ObjectHideFlags: 0
